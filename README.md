@@ -139,6 +139,8 @@ The picture element displays an image that changes based on the size of the view
 
 The button element displays an image of a dice and has an onClick handler attached to it. When the user clicks on the button, the handleClick function is called, which retrieves a new random piece of advice from the API and updates the advice state variable. This allows the user to retrieve a new piece of advice by clicking on the button.
 
+## Useful resources
+
 - [Drop shadow generator](https://webcode.tools/generators/css/drop-shadow) - This helped me to make the shadow effect in the button.
 - [JavaScript Fetch API](https://www.w3schools.com/jsref/api_fetch.asp) - This is an amazing article which helped me finally understand the use of fecth.
 - [REACT ⚛️ CURSO Práctico DESDE CERO - Desarrolla una app con React.js PASO A PASO](https://www.youtube.com/watch?v=4AFOCAgywLc) - This short course help me to understand how to fetch in React using useState() and useEffect()
