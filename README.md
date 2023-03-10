@@ -23,7 +23,7 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
-
+![](./src/assets/screenshot.png)
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/advice-app-with-api-and-responsive-layout-tnD03gx4zd)
