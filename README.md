@@ -31,7 +31,7 @@ Users should be able to:
 
 ## My process
 
-## Built with
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
@@ -40,9 +40,9 @@ Users should be able to:
 - Mobile-first workflow
 - ReactJS
 
-### Code Explanation
+## Code Explanation
 
-## App Component
+### App Component
 
 ```js
 import { useState, useEffect } from 'react'
@@ -75,7 +75,7 @@ The handleClick function is triggered when the user clicks on a button or any ot
 
 This allows the user to retrieve a new random piece of advice by clicking on a button or any other element with an onClick handler.
 
-## advice.js 
+### advice.js 
 
 ```js
 const API_URL='https://api.adviceslip.com/advice'
@@ -101,7 +101,7 @@ Once the response is received, the code uses the json method to extract the JSON
 
 If an error occurs during the request or data processing, the code catches the error and logs it to the console.
 
-## API response
+### API response
 ```js
   {
     "slip": {
@@ -110,7 +110,7 @@ If an error occurs during the request or data processing, the code catches the e
     }
   }
 ```
-## App Component return
+### App Component return
 ```js
   return (
   <main>
