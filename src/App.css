@@ -1,0 +1,55 @@
+main {
+    position: relative;
+    background: hsl(217deg, 19%, 24%);
+    min-width: 343px;
+    max-width: 540px;
+    min-height: 347px;
+    padding: 1em;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+    text-align: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: .8em;
+    color: hsl(150deg, 100%, 66%);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main p {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: hsl(193deg, 38%, 86%);
+}
+
+main picture {
+    margin-bottom: 2em;
+}
+
+main button {
+    cursor: pointer;
+    background: hsl(150deg, 100%, 66%);
+    width: 64px;
+    height: 64px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+}
+
+main .button:hover {
+    filter: drop-shadow(3px 3px 15px hsl(150deg, 100%, 66%));
+}
+
+main .button img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
