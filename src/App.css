@@ -43,11 +43,11 @@ main button {
     transform: translate(-50%, -50%);
 }
 
-main .button:hover {
+button:hover {
     filter: drop-shadow(3px 3px 15px hsl(150deg, 100%, 66%));
 }
 
-main .button img {
+button img {
     position: absolute;
     left: 50%;
     top: 50%;
